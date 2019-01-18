@@ -1,0 +1,12 @@
+A= input('Enter a String:')
+print(A)
+print(A)
+print(A)
+print(A)
+print(A)
+print(A)
+print(A)
+print(A)
+print(A)
+print(A)
+
