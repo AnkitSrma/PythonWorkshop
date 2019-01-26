@@ -1,0 +1,39 @@
+x= list (range(0,10))
+y=[]
+for each in x:
+        y.append(each**2)
+print(y)
+................................................
+
+
+Fast Mehod
+
+z=[each**2 for each in range(0,10)]
+print(z)
+
+.................................................
+x= list (range(0,10))
+y=[]
+for each in x:
+if each % 2=0:
+        y.append(each**2)
+print(y)
+.................................................
+
+progamming_lang= ["c", "Python", "java"]
+creator= ["Dennis", "Ram", "James"]
+
+d={}
+for each in zip(programming_lang, creator):
+  d[each(0)]=each[1]
+prind(d)  
+
+
+or
+
+d={}
+for key, val in zip(programming_lang, creator):
+  d[key]= val
+prind(d)  
+
+
